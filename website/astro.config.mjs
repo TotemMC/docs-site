@@ -7,8 +7,8 @@ export default defineConfig({
 
 	// Added Configuration for 
 	// Deployment to GitHub Pages
-	site: 'https://30DaysOf.github.io',
-	base: '/astro-starlight-ghpages',
+	site: 'https://totemmc.github.io',
+	base: '/docs',
 
 	integrations: [
 		starlight({
@@ -33,9 +33,9 @@ export default defineConfig({
 				*/
 			],
 
-			title: '30Days Template',
+			title: 'TotemMC Docs',
 			social: {
-				github: 'https://github.com/30DaysOf/astro-starlight-ghpages',
+				github: 'https://github.com/TotemMC/docs',
 			},
 			sidebar: [
 				{
